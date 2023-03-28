@@ -10,4 +10,30 @@
 
 <br>
 
+## Contributing:
+
+### To get ready to make pull requests, simply install, rewrite, and compile your project. Be sure to include the binary file in your PR:
+
+```shell
+git clone https://github.com/Svxy/Svxy-AI.git
+```
+
+```shell
+cd Svxy-AI
+```
+
+```shell
+pip install -r requirements.txt
+```
+
+#### Make your changes;
+
+```shell
+python -m auto_py_to_exe
+```
+
+#### Then select your file, rename and compile as necessary.
+
+<br>
+
 <h3 align=center>See <a href=-'./LICENSE'>LICENSE</a></h3>
