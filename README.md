@@ -6,7 +6,7 @@
 
 <br>
 
-<h4 align=center><b><a href='https://github.com/Svxy/Svxy-AI/releases/latest'>Download now!</a></b></h4>
+<h4 align=center><b><a href='https://github.com/Svxy/Svxy-AI/releases/latest'>Download</a> now!</b></h4>
 
 <br>
 
