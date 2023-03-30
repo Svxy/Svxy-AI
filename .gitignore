@@ -1,8 +1,13 @@
 api-key
 output/
 dev.py
+dev-linux.py
 setup.bat
 build.bat
 pkgs.txt
+Svxy AI.spec
+WINDOWSTEMPDIR_FONTCONFIG_CACHE/
+build/
+dist/
 
 # This folder is a mess lmao

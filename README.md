@@ -28,8 +28,16 @@ pip install -r requirements.txt
 
 #### Make your changes;
 
+### Windows:
+
 ```shell
 python -m auto_py_to_exe
+```
+
+### Linux:
+
+```console
+pyinstaller --onefile --windowed --name "Svxy AI" --icon "/assets/icon.xbm" ai-linux.py
 ```
 
 #### Then select your file, rename and compile as necessary.
