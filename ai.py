@@ -38,7 +38,7 @@ def generate_response(prompt):
             temperature=0.7,
         )
         response_text = response.choices[0].text.strip()
-        response_text = re.sub('[^0-9a-zA-Z\n\.\?!]+', ' ', response_text)
+        response_text = re.sub('[^0-9a-zA-Z\n\.\?!@#\$%&\*\(\)\-_\+=<>\[\]\{\}\|\^~`"":;,\/\\\'\\\]+', ' ', response_text)
         return response_text
     except (ValueError, TypeError, AttributeError, ZeroDivisionError, FileNotFoundError, IOError, KeyboardInterrupt, MemoryError, requests.exceptions.RequestException, AuthenticationError, InvalidRequestError,APIConnectionError, APIError, RateLimitError) as e:
         response_box.config(state=NORMAL)
