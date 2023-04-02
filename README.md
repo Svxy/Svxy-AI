@@ -2,7 +2,7 @@
 
 <br>
 
-<p align=center><b>A simple localized AI chat bot that using Open AI's GPT3.0 functionalities.</b></p>
+<p align=center><b>A simple filter-less AI chat bot that uses Open AI's GPT functionalities.</b></p>
 
 <br>
 
